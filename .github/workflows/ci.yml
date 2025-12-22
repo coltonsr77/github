@@ -20,7 +20,7 @@ jobs:
     steps:
     - uses: actions/checkout@v6
     - name: install Atom
-      uses: UziTech/action-setup-atom@v1
+      uses: UziTech/action-setup-atom@v3
       with:
         channel: ${{ matrix.channel }}
 
@@ -66,7 +66,7 @@ jobs:
     steps:
     - uses: actions/checkout@v6
     - name: install Atom
-      uses: UziTech/action-setup-atom@v1
+      uses: UziTech/action-setup-atom@v3
       with:
         channel: nightly
     - name: install dependencies
@@ -83,7 +83,7 @@ jobs:
     steps:
     - uses: actions/checkout@v6
     - name: install Atom
-      uses: UziTech/action-setup-atom@v1
+      uses: UziTech/action-setup-atom@v3
       with:
         channel: nightly
     - name: install dependencies
