@@ -18,7 +18,7 @@ jobs:
       MOCHA_TIMEOUT: 60000
       UNTIL_TIMEOUT: 30000
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v6
     - name: install Atom
       uses: UziTech/action-setup-atom@v1
       with:
@@ -64,7 +64,7 @@ jobs:
     name: lint
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v6
     - name: install Atom
       uses: UziTech/action-setup-atom@v1
       with:
@@ -81,7 +81,7 @@ jobs:
       ATOM_GITHUB_BABEL_ENV: coverage
       ATOM_GITHUB_TEST_SUITE: snapshot
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v6
     - name: install Atom
       uses: UziTech/action-setup-atom@v1
       with:
