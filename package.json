@@ -90,7 +90,7 @@
     "electron-mksnapshot": "^39.2.7",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.8",
-    "eslint": "6.8.0",
+    "eslint": "9.39.2",
     "eslint-config-fbjs-opensource": "1.0.0",
     "eslint-plugin-jsx-a11y": "6.2.3",
     "globby": "16.1.0",
