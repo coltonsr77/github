@@ -91,7 +91,7 @@
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.8",
     "eslint": "9.39.2",
-    "eslint-config-fbjs-opensource": "1.0.0",
+    "eslint-config-fbjs-opensource": "3.0.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "globby": "16.1.0",
     "hock": "1.4.1",
